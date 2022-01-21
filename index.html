@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style/style.css">
+    
+    
+</head>
+<body>
+
+    <nav>
+        <div class="wrapper">
+        <div class="logo"><a href="#">PROYECTO FINAL PROCESAMIENTO DE IMAGENES </a></div>
+        
+    </nav>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+
+   <div class="contenedor">   
+    <form >
+        
+
+        <div class="contenedor-navegacion">
+            <ul class="nav">
+                <li><span>INICIO </span>
+                    
+                </li>
+            </ul>
+
+            <ul class="nav">
+               
+                <li><span id="op-img">IMAGEN INTERACTIVA </span></li>
+
+            </ul>
+            
+            </br></br></br>
+            <section class="img-container1">Imagen 1
+                <div class="item img-item">
+                    <canvas id="img1" width="300" height="300" crossorigin="anonymous"> </canvas>
+                </div>
+                
+                <div class="item">
+                    <input type="file" id="files" name="files" />
+                </div>
+            </section> 
+            <section class="img-container2">Imagen 2
+                <div class="item img-item">
+                    <canvas id="img2" width="300" height="300"> </canvas>
+                </div>
+
+                <div class="item">
+                    <input type="file" id="files2" name="files" />
+                </div>
+                
+            </section>
+            <section class="img-container4">
+                <div class="item img-item">
+                    <canvas id="img4" width="300" height="300" crossorigin="anonymous"> </canvas>
+                </div>
+                
+            </section>
+        </div>
+        <div class="hero"></div>
+    </from>
+    <script src="dist/src/index.js"  type="module"></script>
+</div>
+
+</body>
+</html>
+
